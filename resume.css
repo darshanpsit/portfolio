@@ -1,0 +1,124 @@
+/* GLOBAL------------
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+html{
+  box-sizing:border-box ;
+}
+
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+.social{
+  list-style-type: none;
+}
+.social img{
+  width: 32px;
+}
+.social li{
+  display: inline;
+}
+body {
+    background-color: #d3dfdf; /* Optional background color */
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+
+
+/*HOME------------------*/
+.home{
+    background:url('/bg-home-office-studio.jpgbg') no-repeat;
+    background-size: cover;
+}
+
+
+.home .content-wrapper{
+  background:rgba(199, 61, 61, 0.8) ;
+}
+
+/*RESUMR---------------*/
+
+.resume header::before{
+  background-image:url(bg-home-office-city.jpg) ;
+  background-size: cover;
+  display: block;
+  height: 375px;
+  content:"";
+}
+.resume-section{
+  margin-buttom:50px;
+}
+.resume-section{
+  margin-buttom:2px dashed #d3d4d6;
+}
+
+.cotainer{
+  background-color: #671b1b;
+}
+.btn download-link,a{
+  background: green;
+  display: inline-block; 
+  margin: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  color: #671b1b; 
+  background-color: rgb(252, 252, 252); 
+  border: none; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  cursor: pointer; 
+} 
+.btn download-link:hover { 
+  background-color: #1e0db5;
+}
+button{
+  background: rgb(45, 151, 16);
+}
+/*PROFILE------------------*/
+.project{
+  background-image:url(project-biz-cards-500px.jpg) ;
+  background-size: cover;
+  display: block;
+  height: 150px;
+  content:"";
+}
+
+/*WORK EXPERIENCE*/
+.work-item{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+/*EDUCATION------------------*/
+
+
+
+/*footer---------------*/
+footer{
+    background-color: #57c61b;
+    color: rgb(255, 255, 255);
+}
+
+ a:hover {
+    color:yellowgreen;
+        text-decoration: underline;
+      }
+      footer{
+      display: flex;
+      flex: 1 0 auto;
+      padding: 40px;
+      justify-content: space-between;
+      }
+  
+
+
